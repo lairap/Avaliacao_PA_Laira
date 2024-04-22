@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a19bec, #b0a1e7, #d2b2dd, #eebfd4);
+    overflow-x: hidden;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px;
+
+  }
+
+
+  header {
+    font-family: "Montserrat";
+    position: absolute;
+    top: 0;
+    right: -170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    align-items: center;
+  }
+  
+  header nav {
+    float: right; /* Alinha a navegação à direita */
+  }
+
+  header ul{
+    display: flex;
+    justify-content: center;
+  }
+
+  header ul li {
+    list-style: none;
+    margin-left: 20px;
+  }
+
+  header ul li a {
+    text-decoration: none;
+    padding: 13px 40px;
+    color: #ffffff;
+    border-radius: 14px;
+  }
+
+  header ul li a:hover {
+    background: #ffffff;
+    color: #563d96;
+
+  }
+
+  #logo img {
+    
+    width: 200px;
+  }
+  
+/* body { */
+  /* position: initial; */
+  /* background-image: url(img/brightpurple.png); */
+
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+/* } */
+
+  #hero {
+    text-align: center;
+    padding: 145px 0;
+  }
+  
+  #hero h1 {
+    font-family: "Inknut Antiqua";
+    position: relative;
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-style: bold;
+    bottom: 30px;
+
+  }
+  
+  #hero p {
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: -30px;
+    margin-bottom: 70px;
+    padding: 20px;
+    letter-spacing: 3px;
+    
+  }
+  
+  .btn {
+    font-family: "Montserrat";
+    display: inline-block;
+    background-color: #8561c0;
+    color: #fff;
+    padding: 17px 60px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #7050aa;
+  }
+
+  .Blob{
+    z-index: 1;
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .Sparkle {
+    z-index: 1;
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  /* footer {
+    background-color: #ad59df;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+   */
